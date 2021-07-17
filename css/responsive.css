@@ -18,10 +18,11 @@
     background: #e23e38;
     top: 0;
     padding: 0;
+    height: 55px;
 }
 .main-menu .navbar-brand {
 	width: 160px;
-	height: 50px;
+	height: 55px;
 	padding-top: 0px;
     padding-bottom: 0;
     margin-left: 6px;
@@ -35,7 +36,7 @@
 	box-shadow: 0 0 0 0;
 }
 .main-menu a img{
-    height: 40px;
+    height: 45px;
     margin: 5px 0;
 }
 .main-menu #navbarNav{
@@ -52,13 +53,13 @@
 }
 .main-menu ul li a {
 	font-weight: 400;
-	line-height: 35px;
+	line-height: 40px;
 
 }
 
 /* Banner part start */
 .banner-item {
-	padding: 120px 0 100px;
+	padding: 140px 0 110px;
 }
 .banner-item h2::before,
 .banner-item h2::after,
@@ -69,7 +70,7 @@
 	display: none;
 }
 .banner-item h2 {
-	font-size: 20px;
+	font-size: 18px;
 
 }
 .banner-item h1 {
@@ -77,13 +78,13 @@
     padding: 5px 0;
 }
 .banner-item p{
-    padding: 0 20px;
+    padding: 0 30px;
     line-height: 22px;
 }
 .banner-item a {
 	font-size: 14px;
 	padding: 5px 10px;
-	margin: 40px 4px 0 5px;
+	margin: 50px 4px 0 5px;
 
 }
 
@@ -173,26 +174,26 @@ text-align: justify;
 	margin-bottom: 30px;
 }
 .membership-card h2 {
-	font-size: 14px;
-	padding: 12px 0;
+	font-size: 16px;
+	padding: 15px 0;
 
 }
 .membership-card h3 {
-	padding: 25px 0;
-	font-size: 40px;
+	padding: 30px 0;
+	font-size: 45px;
 
 }
 .membership-card ul {
 	margin: 10px 0;
 }
 .membership-card a {
-	font-size: 14px;
-	padding: 7px 0;
+	font-size: 16px;
+	padding: 9px 0;
 
 }
 .membership-card ul li {
-	padding: 7px 0;
-	font-size: 13px;
+	padding: 10px 0;
+	font-size: 15px;
 }
 
 /* Membership part end */
@@ -220,12 +221,15 @@ text-align: justify;
 	margin-bottom: 20px;
 }
 .class-menu {
-	height: 35px;
 	margin-bottom: 10px !important;
+    height: 70px;
 
 }
 .class-menu li {
 	line-height: 35px;
+    width: 33%;
+    border-bottom: 1px solid #e23e38;
+
 
 }
 .class-menu li button {
@@ -233,15 +237,19 @@ text-align: justify;
 }
 
 .class-text ul li {
-	width: 31%;
+	width: 48.30%;
 	padding: 10px 0;
 
 }
-.class-text ul li:nth-child(5),
+.class-text ul li:nth-child(5), 
 .class-text ul li:nth-child(10) {
-    margin-right: 10px;
+	margin-right: 10px;
 }
-.class-text ul li:nth-child(3), .class-text ul li:nth-child(6),.class-text ul li:nth-child(9){
+.class-text ul li:nth-child(2),
+.class-text ul li:nth-child(4),
+.class-text ul li:nth-child(6),
+.class-text ul li:nth-child(8),
+.class-text ul li:nth-child(10){
     margin-right: 0;
 }
 .class-text ul li p {
