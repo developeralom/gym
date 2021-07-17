@@ -6,7 +6,7 @@ $(function () {
   $('#banner-part').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
     dots: true,
@@ -16,7 +16,7 @@ $(function () {
   $('.test-slider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
     dots: true,
