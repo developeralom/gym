@@ -1,0 +1,300 @@
+
+@media (min-width:1400){
+
+}
+@media (max-width:1200px) and (max-width:1399.98){
+
+}
+
+@media (min-width:992px) and (max-width:1199.98px){
+
+}
+@media (min-width:576px) and (max-width:991.98px){
+
+}
+
+@media (max-width:575.98px){
+.main-menu {
+    background: #e23e38;
+    top: 0;
+    padding: 0;
+}
+.main-menu .navbar-brand {
+	width: 160px;
+	height: 50px;
+	padding-top: 0px;
+    padding-bottom: 0;
+    margin-left: 6px;
+
+}
+.main-menu button i{
+    color: #fff;
+}
+.main-menu .navbar-toggler:focus {
+
+	box-shadow: 0 0 0 0;
+}
+.main-menu a img{
+    height: 40px;
+    margin: 5px 0;
+}
+.main-menu #navbarNav{
+    background: #e23e38;
+    text-align: center;
+    padding: 10px 0;
+}
+.main-menu .nav-link.active::after {
+	width: 0%;
+;
+}
+.main-menu ul li a:hover::after {
+	 width:0%; 
+}
+.main-menu ul li a {
+	font-weight: 400;
+	line-height: 35px;
+
+}
+
+/* Banner part start */
+.banner-item {
+	padding: 110px 0 70px;
+}
+.banner-item h2::before,
+.banner-item h2::after,
+.banner-item h1::before,
+.banner-item h1::after,
+.banner-item p::before,
+.banner-item p::after{
+	display: none;
+}
+.banner-item h2 {
+	font-size: 20px;
+
+}
+.banner-item h1 {
+	font-size: 35px;
+    padding: 5px 0;
+}
+.banner-item p{
+    padding: 0;
+    line-height: 22px;
+}
+.banner-item a {
+	font-size: 14px;
+	padding: 5px 10px;
+	margin: 40px 4px 0 5px;
+
+}
+
+/* Banner part end */
+
+
+
+/* About Part start  */
+#about-part {
+	padding: 40px 0;
+}
+.about-text p {
+	margin-top: 10px;
+    padding-bottom: 24px;
+    text-align: justify;
+}
+.about-text p span {
+	display: none;
+}
+
+
+/* About Part end  */
+
+
+/* Gallerly part start */
+
+.gallery-banner {
+    margin-top: 15px;
+	padding: 30px 0 6px 0;
+
+
+}
+
+/* Gallery part end */
+
+/* Team part start */
+#team-part {
+	padding: 40px 0;
+}
+
+.team-overlay-icon {
+
+	 transform: scale(1); 
+	border: 5px solid #fff;
+    background: rgba(226, 62, 56, 0.5);
+
+    
+}
+.team-people,
+.team-people:hover {
+	transform: translateY(0);
+	border: 1px solid #ddd;
+}
+.team-people p {
+	transform: scale(1);
+}
+.team-people {
+	margin-top: 30px;
+}
+
+
+/* Team part end */
+
+
+
+/* Testimonial part start*/
+.test-banner {
+	padding: 20px 0 50px;
+
+}
+.test-banner .slick-dots {
+	bottom: -30px;
+
+}
+.test-pera p {
+text-align: justify;
+}
+/* Testimonial part end*/
+
+
+
+/* Membership part start */
+#membership-part {
+	padding: 40px 0 0 0;
+}
+#membership-part .membership-card {
+	margin-bottom: 30px;
+}
+.membership-card h2 {
+	font-size: 14px;
+	padding: 12px 0;
+
+}
+.membership-card h3 {
+	padding: 25px 0;
+	font-size: 40px;
+
+}
+.membership-card ul {
+	margin: 10px 0;
+}
+.membership-card a {
+	font-size: 14px;
+	padding: 7px 0;
+
+}
+.membership-card ul li {
+	padding: 7px 0;
+	font-size: 13px;
+}
+
+/* Membership part end */
+
+/* Conunter part start */
+
+#counter-part {
+	margin: 0 0;
+	padding: 20px 0;
+}
+.counter-text h2 {
+	font-size: 24px;
+}
+.counter-text p {
+	font-size: 11px;
+}
+/* Conunter part end */
+
+
+/* Class part start  */
+#ourClasses-part {
+	padding: 40px 0;
+}
+#ourClasses-part .gallery-head {
+	margin-bottom: 20px;
+}
+.class-menu {
+	height: 35px;
+	margin-bottom: 10px !important;
+
+}
+.class-menu li {
+	line-height: 35px;
+
+}
+.class-menu li button {
+	font-size: 9px;
+}
+
+.class-text ul li {
+	width: 31%;
+	padding: 10px 0;
+
+}
+.class-text ul li:nth-child(5),
+.class-text ul li:nth-child(10) {
+    margin-right: 10px;
+}
+.class-text ul li:nth-child(3), .class-text ul li:nth-child(6),.class-text ul li:nth-child(9){
+    margin-right: 0;
+}
+.class-text ul li p {
+	font-size: 8px;
+	font-weight: 600;
+
+}
+.class-text ul li i {
+	font-size: 30px !important;
+}
+.rotine-head{
+    font-size: 13px !important;
+    font-weight: 400;
+}
+/* Class part end  */
+
+
+/* Client part start */
+#client-part {
+	padding-bottom: 40px;
+}
+/* Client part end */
+
+/* Footer part start */
+
+.footer-content {
+	padding:  0;
+}
+#footer-part h2 {
+    text-align: center;
+	padding-bottom: 15px;
+    padding-top: 25px;
+}
+.footer-twitter ul li {
+	margin-bottom: 5px;
+}
+.get-social h3 {
+	color: #fff;
+	margin: 20px 0 10px 0;
+
+	text-align: center;
+}
+.get-social ul {
+	justify-content: center;
+    margin-bottom: 10px;
+}
+.btop-btn {
+    right: 10px;
+	bottom: 40px;
+
+}
+
+/* Footer part end */
+
+
+}
